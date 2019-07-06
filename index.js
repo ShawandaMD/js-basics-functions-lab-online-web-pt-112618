@@ -11,20 +11,6 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-   switch(tip) {
-    case 'generous':
-      return "Thank you so much.";
-    case 'not as generous':
-      return "Thank you.";
-    default:  
-     return "Bye.";
-  }
-  
-  
-  
-  
-  
-  
   if (distanceTravelledInFeet(start, end) <= 400) {
     return 0
   }
